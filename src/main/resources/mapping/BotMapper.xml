@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jiepi.dao.BotDao">
+    <sql id="base_column_list">
+        fcid,name,password,enableGroupChat,state,type,isBot
+    </sql>
+
+    <select id="findBots" resultType="com.jiepi.bean.Bot">
+        select
+        <include refid="base_column_list"/>
+        from bot
+    </select>
+
+    <insert id="save" parameterType="com.jiepi.bean.Bot">
+        insert into bot(fcid,passWord,name,enabeGroupChat,description,distributeBot,state,type,developer,isBot)
+        values (#{id},#{passWord},#{name},#{enabeGroupChat},#{description},#{distributeBot},#{state},#{type},#{developer},#{isBot})
+    </insert>
+
+
+</mapper>
