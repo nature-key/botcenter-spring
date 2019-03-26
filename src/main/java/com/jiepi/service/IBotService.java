@@ -5,12 +5,12 @@ import com.jiepi.bean.Bot;
 import java.util.List;
 import java.util.Map;
 
-public interface IBotService {
+public interface IBotService  {
      List<Bot> findBots();
 
      Bot findBot();
 
-     String save(Map<String,Object> map);
+     Map save(Map<String,Object> map);
 
      int delete(String fcid);
 
