@@ -12,7 +12,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class CustomRestExceptionHandler extends ResponseEntityExceptionHandler {
 
     //处理自定义异常
-    @ExceptionHandler(Exception.class)
+    @ExceptionHandler(CustomException.class)
     public ResponseEntity<Object> handleCustomerException(CustomException ex) {
 
         final ErrorDTO customeError = new ErrorDTO(ex.getErrorCode(), ex.getLocalizedMessage());

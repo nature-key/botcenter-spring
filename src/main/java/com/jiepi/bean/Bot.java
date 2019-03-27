@@ -2,7 +2,6 @@ package com.jiepi.bean;
 
 import com.jiepi.myenum.BotState;
 import com.jiepi.myenum.BotType;
-import org.apache.ibatis.type.Alias;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -37,8 +36,6 @@ public class Bot {
         this.type = type;
         this.isBot = isBot;
     }
-
-
 
     public String getFcid() {
         return fcid;
@@ -104,11 +101,11 @@ public class Bot {
         this.developer = developer;
     }
 
-    public Set<OsType> getosType() {
+    public Set<OsType> getOsType() {
         return osType;
     }
 
-    public void setosType(Set<OsType> osType) {
+    public void setOsType(Set<OsType> osType) {
         this.osType = osType;
     }
 

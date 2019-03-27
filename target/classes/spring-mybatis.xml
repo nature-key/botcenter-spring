@@ -10,19 +10,24 @@
     <context:component-scan base-package="com.jiepi"></context:component-scan>
     <bean id="propertyConfigurer"
           class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="location" value="classpath:jdbc.properties" />
+        <property name="location" value="classpath:jdbc.properties"/>
     </bean>
 
     <bean id="dataSouce" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
-        <property name="driverClassName" value="${driver}"></property>
-        <property name="url" value="${url}"></property>
-        <property name="username" value="${username}"></property>
-        <property name="password" value="${password}"></property>
-        <property name="initialSize" value="${initialSize}"></property>
-        <property name="maxActive" value="${maxActive}"></property>
-        <property name="maxIdle" value="${maxIdle}"></property>
-        <property name="minIdle" value="${minIdle}"></property>
-        <property name="maxWait" value="${maxWait}"></property>
+        <property name="driverClassName" value="${mysql.driver_class}" />
+        <property name="url" value="${mysql.connection.url}" />
+        <property name="username" value="${mysql.connection.username}" />
+        <property name="password" value="123456" />
+        <!--&lt;!&ndash; 初始化连接大小 &ndash;&gt;-->
+        <!--<property name="initialSize" value="${initialSize}"></property>-->
+        <!--&lt;!&ndash; 连接池最大数量 &ndash;&gt;-->
+        <!--<property name="maxActive" value="${maxActive}"></property>-->
+        <!--&lt;!&ndash; 连接池最大空闲 &ndash;&gt;-->
+        <!--<property name="maxIdle" value="${maxIdle}"></property>-->
+        <!--&lt;!&ndash; 连接池最小空闲 &ndash;&gt;-->
+        <!--<property name="minIdle" value="${minIdle}"></property>-->
+        <!--&lt;!&ndash; 获取连接最大等待时间 &ndash;&gt;-->
+        <!--<property name="maxWait" value="${maxWait}"></property>-->
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -32,7 +37,7 @@
 
     <!-- DAO接口所在包名，Spring会自动查找其下的类 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.jiepi" />
+        <property name="basePackage" value="com.jiepi"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
 

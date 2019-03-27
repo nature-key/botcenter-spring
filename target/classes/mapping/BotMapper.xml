@@ -4,19 +4,32 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.jiepi.dao.BotDao">
-    <sql id="base_column_list">
-        fcid,name,password,enableGroupChat,state,type,isBot
-    </sql>
 
-    <select id="findBots" resultType="com.jiepi.bean.Bot">
-        select
-        <include refid="base_column_list"/>
-        from bot
-    </select>
+      <!--<resultMap id="botMap" type="com.jiepi.bean.Bot">-->
+          <!--<id column="fcid" property="fcid"></id>-->
+          <!--<id column="password" property="passWord"></id>-->
+          <!--<id column="enabeGroupChat" property="enableGroupChat"></id>-->
+          <!--<id column="description" property="description"></id>-->
+          <!--<id column="distributeBot" property="distributeBot"></id>-->
+          <!--<id column="developer" property="developer"></id>-->
+          <!--<id column="state" property="state"></id>-->
+          <!--<id column="type" property="type"></id>-->
+          <!--<id column="isBot" property="isBot"></id>-->
+      <!--</resultMap>-->
+    <!--<sql id="base_column_list">-->
+        <!--fcid,name,password,enableGroupChat,state,type,isBot-->
+    <!--</sql>-->
 
-    <insert id="save" parameterType="com.jiepi.bean.Bot">
-        insert into bot(fcid,passWord,name,enabeGroupChat,description,distributeBot,state,type,developer,isBot)
-        values (#{id},#{passWord},#{name},#{enabeGroupChat},#{description},#{distributeBot},#{state},#{type},#{developer},#{isBot})
+
+    <!--<select id="findBots" resultType="com.jiepi.bean.Bot">-->
+        <!--select-->
+        <!--<include refid="base_column_list"/>-->
+        <!--from bot-->
+    <!--</select>-->
+
+    <insert id="save" useGeneratedKeys="true" keyProperty="fcid" >
+        insert into bot(fcid,passWord,name,enableGroupChat,description,distributeBot,state,type,developer,isBot)
+        values (#{fcid},#{passWord},#{name},#{enableGroupChat},#{description},#{distributeBot},#{state},#{type},#{developer},#{isBot})
     </insert>
 
 

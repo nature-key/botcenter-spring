@@ -12,5 +12,5 @@ public interface BotDao {
 
     int deleteBot(String fcid);
 
-    String save(Bot bot);
+    int save(Bot bot);
 }

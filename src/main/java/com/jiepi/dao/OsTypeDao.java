@@ -1,7 +1,6 @@
 package com.jiepi.dao;
 
 import com.jiepi.bean.OsType;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -13,5 +12,5 @@ public interface OsTypeDao {
 
     List<OsType>  findList();
 
-    List<Integer> save(List<OsType> list);
+    Integer save(List<OsType> list);
 }

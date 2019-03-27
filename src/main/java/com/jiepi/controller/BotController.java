@@ -2,22 +2,26 @@ package com.jiepi.controller;
 
 import com.jiepi.service.IBotService;
 import org.apache.log4j.Logger;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import java.util.Map;
 
-@RestController
+@Controller
 @RequestMapping("/api/v1/fc")
 public class BotController {
-    static Logger log4j = Logger.getLogger(BotController.class);
+    public static Logger logger = Logger.getLogger(BotController.class);
     @Resource
     private IBotService botService;
 
     @RequestMapping(value = "/bot", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> save(@RequestBody Map<String, Object> map)  {
-
-        return botService.save(map);
+    public Map<String, Object> save(@RequestBody  Map<String, Object> map) {
+        Map resultMap = botService.save(map);
+        return resultMap;
     }
 }
