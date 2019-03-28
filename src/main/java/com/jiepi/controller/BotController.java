@@ -14,13 +14,13 @@ import java.util.Map;
 @Controller
 @RequestMapping("/api/v1/fc")
 public class BotController {
-    public static Logger logger = Logger.getLogger(BotController.class);
+    public static Logger LOGGER = Logger.getLogger(BotController.class);
     @Resource
     private IBotService botService;
 
     @RequestMapping(value = "/bot", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> save(@RequestBody  Map<String, Object> map) {
+    public Map<String, Object> save(@RequestBody Map<String, Object> map) {
         Map resultMap = botService.save(map);
         return resultMap;
     }

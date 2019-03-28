@@ -8,10 +8,14 @@ import com.jiepi.dao.AppTypeDao;
 import com.jiepi.dao.AuthTagsDao;
 import com.jiepi.dao.BotDao;
 import com.jiepi.dao.OsTypeDao;
+import com.jiepi.error.ErrorDTO;
+import com.jiepi.error.ExceptionEnum;
 import com.jiepi.service.IBotService;
+import com.jiepi.util.MapAndUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,10 +23,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+@Transactional
 @Service
 public class BotService implements IBotService {
 
-    static Logger log4j = Logger.getLogger(BotService.class);
+    public static Logger LOGGER = Logger.getLogger(BotService.class);
 
 
     @Autowired
@@ -45,8 +50,9 @@ public class BotService implements IBotService {
         return null;
     }
 
-    public Map<String, Object> save(Map<String, Object> map) {
+    public Map<String, Object> save(Map<String, Object> map)  {
         Map<String, Object> responseMap = new HashMap<>();
+        Map<String, String> errotMap = new HashMap<>();
         Bot bot = null;
         List<String> authTagsSet = new ArrayList<>();
         List<String> osTypeSet = new ArrayList<>();
@@ -65,16 +71,24 @@ public class BotService implements IBotService {
         osTypeSet = (List<String>) map.get("osType");
         appTypeSet = (List<String>) map.get("appType");
         bot = new Bot(fcid, passWord, name, enableGroupChat, description, distributeBot, developer, state, type, isBot);
-        int botId = botDao.save(bot);
-        if(botId>0){
-            List<AuthTags> listAuth = authTagsSet.stream().map(it -> new AuthTags(it, fcid)).collect(Collectors.toList());
-            List<OsType> listOs = osTypeSet.stream().map(it -> new OsType(it, fcid)).collect(Collectors.toList());
-            List<AppType> listAPP = appTypeSet.stream().map(it -> new AppType(it, fcid)).collect(Collectors.toList());
-            authTagsDao.save(listAuth);
-            osTypeDao.save(listOs);
-            appTypeDao.save(listAPP);
-            responseMap.put("fcid", fcid);
+        try {
+            int botId = botDao.save(bot);
+            if (botId > 0) {
+                List<AuthTags> listAuth = authTagsSet.stream().map(it -> new AuthTags(it, fcid)).collect(Collectors.toList());
+                List<OsType> listOs = osTypeSet.stream().map(it -> new OsType(it, fcid)).collect(Collectors.toList());
+                List<AppType> listAPP = appTypeSet.stream().map(it -> new AppType(it, fcid)).collect(Collectors.toList());
+                authTagsDao.save(listAuth);
+                osTypeDao.save(listOs);
+                appTypeDao.save(listAPP);
+                responseMap.put("fcid", fcid);
+            }
+        } catch (Exception error) {
+            LOGGER.error(error.getMessage().toString());
+            LOGGER.error("error.........................");
+            ErrorDTO errorDTO = new ErrorDTO(ExceptionEnum.SERVER_ERROR.getHttpStatus(), ExceptionEnum.SERVER_ERROR.getError_desc());
+            return MapAndUtil.objectToMap(errorDTO);
         }
+
         return responseMap;
 
     }

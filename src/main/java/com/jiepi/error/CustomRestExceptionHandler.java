@@ -1,32 +1,35 @@
 package com.jiepi.error;
 
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.HttpRequestMethodNotSupportedException;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.context.request.WebRequest;
-import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-@ControllerAdvice
-public class CustomRestExceptionHandler extends ResponseEntityExceptionHandler {
+import org.springframework.web.servlet.HandlerExceptionResolver;
+import org.springframework.web.servlet.ModelAndView;
 
-    //处理自定义异常
-    @ExceptionHandler(CustomException.class)
-    public ResponseEntity<Object> handleCustomerException(CustomException ex) {
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
-        final ErrorDTO customeError = new ErrorDTO(ex.getErrorCode(), ex.getLocalizedMessage());
-
-        return new ResponseEntity<Object>(customeError, new HttpHeaders(), ex.getHttpStatus());
-
-    }
-
-    //处理通用异常，这里举例说明如何覆盖处理 请求方法不支持的异常
+//@ControllerAdvice
+public class CustomRestExceptionHandler implements HandlerExceptionResolver {
     @Override
-    protected ResponseEntity<Object> handleHttpRequestMethodNotSupported(HttpRequestMethodNotSupportedException ex,
-                                                                         HttpHeaders headers, HttpStatus status, WebRequest request) {
-        // TODO Auto-generated method stub
-        final ErrorDTO customeError = new ErrorDTO(status.value(), "HttpRequestMethodNotSupported");
-        return new ResponseEntity<Object>(customeError, new HttpHeaders(), status);
+    public ModelAndView resolveException(HttpServletRequest request, HttpServletResponse response, Object obj,
+                                         Exception ex) {
+        CustomException ce;
+        //判断ex异常类型是否为CustomException,如果是就将其赋给CustomException对象，如果不是new一个未知异常
+        if(ex instanceof CustomException){
+            ce=(CustomException)ex;
+        }else{
+            ce=new CustomException("未知异常");
+        }
+        //将错误信息放入请求作用域中
+        request.setAttribute("message", ce.getMessage());
+        try {
+            //进行页面的跳转，跳转到错误信息页面
+            request.getRequestDispatcher("/WEB-INF/student/error.jsp").forward(request, response);
+        } catch (ServletException | IOException e) {
+            e.printStackTrace();
+        }
+        return new ModelAndView();
     }
+
+
 }
