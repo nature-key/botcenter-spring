@@ -85,7 +85,7 @@ public class BotService implements IBotService {
         } catch (Exception error) {
             LOGGER.error(error.getMessage().toString());
             LOGGER.error("error.........................");
-            ErrorDTO errorDTO = new ErrorDTO(ExceptionEnum.SERVER_ERROR.getHttpStatus(), ExceptionEnum.SERVER_ERROR.getError_desc());
+            ErrorDTO errorDTO = new ErrorDTO(ExceptionEnum.SERVER_ERROR.getHttpStatus().toString(), ExceptionEnum.SERVER_ERROR.getError_desc());
             return MapAndUtil.objectToMap(errorDTO);
         }
 

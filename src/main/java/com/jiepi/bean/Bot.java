@@ -1,26 +1,25 @@
 package com.jiepi.bean;
 
-import com.jiepi.myenum.BotState;
-import com.jiepi.myenum.BotType;
+import org.codehaus.jackson.annotate.JsonProperty;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
 
 
 public class Bot {
     private String fcid;
     private String passWord;
     private String name;
-    private boolean enableGroupChat=true;
-    private String description = "机器人";
-    private String distributeBot ="";
-    private Set<AuthTags> authTags = new HashSet<AuthTags>();
+    private boolean enableGroupChat;
+    private String description ;
+    private String distributeBot;
+    private List<AuthTags> authTags;
     private String developer;
-    private Set<OsType> osType = new HashSet<OsType>();
-    private Set<AppType> appType = new HashSet<AppType>();
-    private int state = BotState.UNAUDIT.getCode();
-    private int type = BotType.OFFICIAL.getCode();
-    private boolean isBot = true;
+    private List<OsType> osType;
+    private List<AppType> appType ;
+    private int state ;
+    private int type ;
+    @JsonProperty(value = "isBot")
+    private boolean isBot;
 
 
 
@@ -85,11 +84,11 @@ public class Bot {
         this.distributeBot = distributeBot;
     }
 
-    public Set<AuthTags> getAuthTags() {
+    public List<AuthTags> getAuthTags() {
         return authTags;
     }
 
-    public void setAuthTags(Set<AuthTags> authTags) {
+    public void setAuthTags(List<AuthTags> authTags) {
         this.authTags = authTags;
     }
 
@@ -101,19 +100,19 @@ public class Bot {
         this.developer = developer;
     }
 
-    public Set<OsType> getOsType() {
+    public List<OsType> getOsType() {
         return osType;
     }
 
-    public void setOsType(Set<OsType> osType) {
+    public void setOsType(List<OsType> osType) {
         this.osType = osType;
     }
 
-    public Set<AppType> getAppType() {
+    public List<AppType> getAppType() {
         return appType;
     }
 
-    public void setAppType(Set<AppType> appType) {
+    public void setAppType(List<AppType> appType) {
         this.appType = appType;
     }
 

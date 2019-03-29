@@ -7,37 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5862502b-2ea9-418e-8f56-8a617a2c8a9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/botcenter_spring_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/botcenter_spring_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/bean/BotTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiepi/bean/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/bean/Bot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiepi/error/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/error/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiepi/error/CustomRestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/error/CustomRestExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jiepi/error/ErrorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/error/ErrorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiepi/error/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/error/ExceptionEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jiepi/service/imp/BotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/service/imp/BotService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiepi/util/BotMapFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiepi/util/MapAndUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/controller/BotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/controller/BotController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/error/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/error/CustomException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/error/CustomRestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/error/CustomRestExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/error/ErrorDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/error/ErrorDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/error/ExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/error/ExceptionEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/service/imp/BotService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/service/imp/BotService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/com/jiepi/util/BotMapFrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/botcenter/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jiepi/controller/BotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiepi/controller/BotController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiepi/error/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiepi/error/CustomException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiepi/error/CustomRestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiepi/error/CustomRestExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiepi/error/ErrorDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiepi/error/ErrorDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiepi/error/ExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiepi/error/ExceptionEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiepi/service/imp/BotService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiepi/service/imp/BotService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiepi/util/BotMapFrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,10 +30,44 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/BotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="132">
+              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <folding>
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="16" column="72" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="72" />
+            <state relative-caret-position="482">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,100 +85,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/service/imp/BotService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="109">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/util/MapAndUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#964#980#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar!/org/apache/commons/beanutils/BeanMap.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7022">
-              <caret line="133" column="11" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar!/org/apache/commons/beanutils/BeanUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1038">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/error/ErrorDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/error/ExceptionEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/http/HttpStatus.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -182,14 +106,15 @@
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ostype</find>
+      <find>validator</find>
     </findStrings>
     <replaceStrings>
       <replace>osType</replace>
@@ -210,18 +135,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapping/AppTypeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/AuthTagsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/OsTypeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/AuthTags.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/AppType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/OsType.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/error/BusinessException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/service/IBotService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/Bot.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/BotMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/dao/BotDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/dao/AppTypeDao.java" />
@@ -230,13 +150,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/error/CustomException.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/error/CustomRestExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/util/MapAndUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/error/ExceptionEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/service/imp/BotService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/AuthTags.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/AppType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/OsType.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiepi/error/ErrorDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/service/imp/BotService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/BotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiepi/bean/Bot.java" />
       </list>
     </option>
   </component>
@@ -265,8 +191,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-226" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-213" />
     <option name="y" value="-1057" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -310,6 +236,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jiepi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="botcenter-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="botcenter-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiepi" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="botcenter-spring" type="b2602c69:ProjectViewProjectNode" />
@@ -408,14 +343,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553767329700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553849605576" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30581397" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -599,12 +534,12 @@
       <updated>1553222314942</updated>
       <workItem from="1553222318489" duration="8902000" />
       <workItem from="1553242747464" duration="60777000" />
-      <workItem from="1553678848207" duration="12429000" />
+      <workItem from="1553678848207" duration="26025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82108000" />
+    <option name="totallyTimeSpent" value="95704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,10 +551,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-226" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="-213" y="-1057" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19009584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19009584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -630,7 +565,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.45859873" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45753714" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908705" />
@@ -675,6 +610,18 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -694,71 +641,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/enum/BotState.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/enum/BotType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/BotType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/myenum/BotState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/myenum/BotType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/AuthTagsMapper.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/AuthTags.tld" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/AppType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/AuthTags.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/OsType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar!/org/springframework/stereotype/Service.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -795,68 +679,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/error/BusinessException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/Bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2196#2197#0" expanded="true" />
-            <element signature="e#2238#2239#0" expanded="true" />
-            <element signature="e#2269#2270#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
-            <element signature="e#2400#2401#0" expanded="true" />
-            <element signature="e#2432#2433#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
-            <element signature="e#2524#2525#0" expanded="true" />
-            <element signature="e#2562#2563#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-            <element signature="e#2676#2677#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2798#2799#0" expanded="true" />
-            <element signature="e#2836#2837#0" expanded="true" />
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#2932#2933#0" expanded="true" />
-            <element signature="e#2966#2967#0" expanded="true" />
-            <element signature="e#2994#2995#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3120#3121#0" expanded="true" />
-            <element signature="e#3148#3149#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
-            <element signature="e#3214#3215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/service/IBotService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -925,20 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/error/CustomRestExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -977,34 +785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/http/HttpStatus.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
         </state>
       </provider>
     </entry>
@@ -1050,27 +834,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/error/ErrorDTO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/myenum/BotState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/validation/constraints/DecimalMax.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/myenum/BotType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar!/org/springframework/context/support/ReloadableResourceBundleMessageSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.5.Final/hibernate-validator-6.0.5.Final.jar!/org/hibernate/validator/HibernateValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/AppType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/OsType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/error/ErrorDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/AuthTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/service/imp/BotService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="194">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/controller/BotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/BotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiepi/bean/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
